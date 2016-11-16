@@ -1,0 +1,35 @@
+{
+    "name": "loadServerData",
+    "title": "Load Server Data",
+    "description": "Load the Server Data without coding, just include jQuery & loadServerData.js plugin it will automatically load the data.",
+    "keywords": [
+        "load",
+        "server",
+		"data",
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "P.Benaya Paul",
+        "url": "https://github.com/benayapaul/loadServerData/blob/master/about/AUTHOR.txt"
+    },
+    "maintainers": [
+        {
+            "name": "Codeasearch – learn, practice and implement",
+            "email": "info@codeasearch.com",
+            "url": "http://www.codeasearch.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/benayapaul/loadServerData/blob/master/about/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/benayapaul/loadServerData/issues",
+    "homepage": "http://www.codeasearch.com",
+    "docs": "https://github.com/benayapaul/loadServerData/blob/master/README.md",
+    "download": "",
+    "dependencies": {
+        "jquery": ">=1.11.0"
+    }
+}
