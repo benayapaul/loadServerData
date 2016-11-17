@@ -1,14 +1,26 @@
 # loadServerData
-Load the Server Data without coding, just include jQuery &amp; loadServerData.js plugin it will automatically load the data.
+Set & Call the server data without coding, tag attribute will work for you.
+---
 
-# How it's work
+##Installation
+Include the loadServerData.js after including the jQuery
 
-loadServerData work based on the attributes which embed into HTML tag.
+```html
+<script src="/path/to/loadServerData.js"></script>
+```
+or
 
-<div id="divId" set-timer='5000' set-url='1.php' set-load-text='Please wait loading...'></div>
-<p id="pId" set-timer='5000' set-url='1.php' set-load-img='https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' set-load-once='1'></p>
+Install using npm
+```
+npm install loadserverdata
+```
 
-Above div tag work based on the attributes value.
+You need create tag based on the set attribute.
+```html
+<div id="server-call" set-timer='5000' set-url='server-file.php' set-load-text='Please wait loading...'></div>
+
+<p id="pId" set-timer='5000' set-url='server-file.php' set-load-img='https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' set-load-once='1'></p>
+```
  
 set-timer
 - attribute trigger the server where given seconds.
@@ -27,4 +39,3 @@ set-load-img
   
 set-load-once
 - attribute run at once or multi times 0/1.  
-
