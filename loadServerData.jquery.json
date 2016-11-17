@@ -33,7 +33,7 @@
     "bugs": "https://github.com/benayapaul/loadServerData/issues",
     "homepage": "http://www.codeasearch.com",
     "docs": "https://github.com/benayapaul/loadServerData/blob/master/README.md",
-    "download": "",
+    "download": "https://github.com/tlongren/jquery-sticky-alert/archive/0.0.3.zip",
     "dependencies": {
         "jquery": ">=1.11.0"
     }
