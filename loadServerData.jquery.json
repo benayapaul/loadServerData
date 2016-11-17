@@ -1,20 +1,25 @@
 {
     "name": "loadServerData",
     "title": "Load Server Data",
-    "description": "Load the Server Data without coding, just include jQuery & loadServerData.js plugin it will automatically load the data.",
+    "description": "Load the Server Data without coding, just include jQuery & loadServerData.js plug-in it will automatically load the data.",
     "keywords": [
-        "load",
-        "server",
+        "jquery-plugin",
+		"ecosystem:jquery",
+		"load",
+		"server",
 		"data",
+		"timer",
+		"tag"
     ],
     "version": "1.0.0",
     "author": {
         "name": "P.Benaya Paul",
-        "url": "https://github.com/benayapaul/loadServerData/blob/master/about/AUTHOR.txt"
+		"email": "info@codeasearch.com",
+        "url": "http://www.codeasearch.com"
     },
     "maintainers": [
         {
-            "name": "Codeasearch – learn, practice and implement",
+            "name": "P.Benaya Paul",
             "email": "info@codeasearch.com",
             "url": "http://www.codeasearch.com"
         }
