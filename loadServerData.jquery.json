@@ -11,7 +11,7 @@
 		"timer",
 		"tag"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "P.Benaya Paul",
 		"email": "info@codeasearch.com",
@@ -33,7 +33,7 @@
     "bugs": "https://github.com/benayapaul/loadServerData/issues",
     "homepage": "http://www.codeasearch.com",
     "docs": "https://github.com/benayapaul/loadServerData/blob/master/README.md",
-    "download": "https://github.com/tlongren/jquery-sticky-alert/archive/0.0.3.zip",
+    "download": "https://github.com/benayapaul/loadServerData/archive/0.0.3.zip",
     "dependencies": {
         "jquery": ">=1.11.0"
     }

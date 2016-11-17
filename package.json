@@ -1,7 +1,7 @@
 {
   "name": "loadserverdata",
   "title": "Load Server Data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set & Call the server data without coding, tag attribute will work for you.",
   "main": "loadServerData.js",
   "bugs": "https://github.com/benayapaul/loadServerData/issues",
