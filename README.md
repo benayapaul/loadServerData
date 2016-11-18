@@ -16,11 +16,34 @@ npm install loadserverdata
 ```
 
 You need create tag based on the set attribute.
+
 ```html
 <div id="server-call" set-timer='5000' set-url='server-file.php' set-load-text='Please wait loading...'></div>
-
 <p id="pId" set-timer='5000' set-url='server-file.php' set-load-img='https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' set-load-once='1'></p>
 ```
+
+
+
+#Example : 
+
+```html
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="loadServerData.js"></script>
+</head>
+
+<body>
+	<div id="server-call" set-timer='5000' set-url='server-file.php' set-load-text='Please wait loading...'></div>
+	
+	<script>
+		$.loadServerData("server-call");
+	</script>
+	
+</body>
+</html>
+```
+
  
 set-timer
 - attribute trigger the server where given seconds.
