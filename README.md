@@ -1,5 +1,5 @@
 # loadServerData
-Set & Call the server data without coding, tag attribute will work for you.
+Fetch and interact with server data without writing any code — simply use tag attributes to handle it for you.
 ---
 
 ##Installation
@@ -44,21 +44,17 @@ You need create tag based on the set attribute.
 </html>
 ```
 
- 
-set-timer
-- attribute trigger the server where given seconds.
-  If the timer is below 5000 it will set default time as 5000 to avoid the server load.
-	
-set-url
-- attribute fetch the data from the server.
+**`set-timer`**
+This attribute triggers a request to the server after the specified number of milliseconds. If the value is below 5000, it defaults to 5000 milliseconds to reduce server load.
 
-set-load-text
-- attribute display text content whenever response is delay.
-  It's a optional if the attribute not set it will load default value "Please wait, we are fetching your data!"
-  
-set-load-img
-- attribute display image whenever response is delay.
-  It's a optional if the attribute not set it will load default value "Please wait, we are fetching your data!"
-  
-set-load-once
-- attribute run at once or multi times 0/1.  
+**`set-url`**
+Specifies the server URL from which data should be fetched.
+
+**`set-load-text`**
+Displays a text message when the response is delayed. This attribute is optional. If not provided, the default message **"Please wait, we are fetching your data!"** will be shown.
+
+**`set-load-img`**
+Displays an image during response delays. This attribute is optional. If not provided, the default image or message **"Please wait, we are fetching your data!"** will appear.
+
+**`set-load-once`**
+Determines whether the request should run only once or multiple times. Set to `1` for a single execution and `0` for repeated execution.
